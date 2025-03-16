@@ -12,7 +12,6 @@ const adminController = require("./controllers/adminController");
 const limiter = require("./middlewares/rateLimiter");
 const router = express.Router();
 const app = express();
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(corsMiddleware);

@@ -1,8 +1,8 @@
 const cors = require("cors");
 
 const corsOptions = {
-  origin: "*",
-  credentials: true,
+  origin: "http://localhost:5173",
+  credentials: false,
   optionSuccessStatus: 200,
 };
 
